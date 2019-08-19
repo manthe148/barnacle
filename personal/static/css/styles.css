@@ -1,0 +1,59 @@
+body, html{
+    background-color:white;
+    height: 100%;
+    margin: 0;
+    text-align: center
+}
+.nav-bar-top{
+    padding: 26px;
+    margin: 0;
+    height: auto;
+    z-index: 1;
+
+}
+.angle{
+    position: absolute;
+}
+.card{
+    text-align: center!important;
+}
+.bg-img{
+    height: 100%;
+    /* width: 100%; */
+    background-image: url('../images/logo.jpg');
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 0;
+    vertical-align: middle;
+    text-align: center;
+    background-attachment: fixed;
+}
+.jumbotron{
+    overflow: hidden;
+    position: absolute;
+    left:25%;
+    top: 25%;
+    padding-top: 15%;
+    width: 50%;
+    z-index: 3;
+}
+
+.trans-container{
+    font-weight: bold;
+    text-shadow: 2px 2px #f4f0f0;
+    opacity: .2;
+}
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+     /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../static/images/atmosphere.jpg');
+    z-index: 0; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
