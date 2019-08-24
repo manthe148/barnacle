@@ -60,7 +60,7 @@ body, html{
   }
   #logo-header{
       width: 150px;
-      height: 100px;
+      height: 9vh;
       padding: 0;
       margin-right: auto;
   }
